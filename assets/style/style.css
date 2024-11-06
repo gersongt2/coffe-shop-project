@@ -107,3 +107,67 @@ button:focus{
     width: 600px;
     border-radius: 150px;
 }
+
+
+/*Começando a Area*/
+
+.area1{
+    display: block;
+    
+}
+
+.area-text{
+
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 500px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+.area-text p{
+    font-size: 20px;
+    color: #000000;
+}
+.area-img1{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 5px;
+}
+
+.area-img1 img{
+    
+    width: 300px;
+}
+
+.area2{
+    display: block;
+    overflow: hidden;
+}
+
+
+.area-img2{
+    width: 3020px;
+}
+
+.area-img2 img{
+    width: 750px;
+    display: inline-block;
+}
+
+.area-text2{
+
+    display: block;
+    height: 100px;
+    width: 500px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    margin-left: 500px;
+    font-size: 19px;
+}
+
+.area-text2 h1{
+    margin-left: 130px;
+    
+}
